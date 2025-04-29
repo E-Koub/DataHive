@@ -36,8 +36,8 @@
 ├── vendor/dataHive/      # Composants core réutilisables
 └── visualization/        # UI Streamlit
 
-
-🚀 Fonctionnalités
+---
+## 🚀 Fonctionnalités
 
     🔄 Ingestion & nettoyage automatisé des données
 
@@ -51,7 +51,8 @@
 
     📥 Interface PGAdmin pour la gestion des données
 
-🐳 **Services Docker**
+---
+## 🐳 **Services Docker**
 
 Le projet embarque plusieurs services orchestrés via Docker :
 Service	Description
