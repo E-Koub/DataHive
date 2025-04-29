@@ -36,9 +36,11 @@
 ├── vendor/dataHive/      # Composants core réutilisables
 └── visualization/        # UI Streamlit
 
----
-## 🚀 Fonctionnalités
 
+```bash
+
+## 🧱 Architecture du projet
+## 🚀 Fonctionnalités
     🔄 Ingestion & nettoyage automatisé des données
 
     📊 Visualisation géographique et analytique avec Streamlit & Folium
