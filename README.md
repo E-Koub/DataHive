@@ -35,11 +35,8 @@
 ├── tests/                # Tests unitaires
 ├── vendor/dataHive/      # Composants core réutilisables
 └── visualization/        # UI Streamlit
+```
 
-
-```bash
-
-## 🧱 Architecture du projet
 ## 🚀 Fonctionnalités
     🔄 Ingestion & nettoyage automatisé des données
 
@@ -52,7 +49,6 @@
     🛢️ Base de données PostgreSQL intégrée
 
     📥 Interface PGAdmin pour la gestion des données
-
 ---
 ## 🐳 **Services Docker**
 
