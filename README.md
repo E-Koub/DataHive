@@ -1,6 +1,6 @@
 # 🧠 DataHive — Framework d’Analyse de Données Structuré
 
-**DataHive** est un framework modulaire destiné aux projets d’analyse de données. Il permet de structurer vos analyses de bout en bout : de l’ingestion des données à leur visualisation interactive, en passant par le nettoyage, l’analyse statistique, et la modélisation.
+**DataHive** est un framework modulaire et scalable conçu pour les Data Analysts, Data Engineers ou Chefs de Projet SI souhaitant structurer un pipeline complet de traitement et d’analyse de données. Il s’appuie sur **Streamlit**, **Jupyter**, **PostgreSQL** et une architecture logicielle claire inspirée des bonnes pratiques du développement logiciel..
 
 ---
 
@@ -35,3 +35,27 @@
 ├── tests/                # Tests unitaires
 ├── vendor/dataHive/      # Composants core réutilisables
 └── visualization/        # UI Streamlit
+
+
+🚀 Fonctionnalités
+
+    🔄 Ingestion & nettoyage automatisé des données
+
+    📊 Visualisation géographique et analytique avec Streamlit & Folium
+
+    ⚙️ Architecture modulaire Python (ingestion, préparation, analyse, modélisation)
+
+    🧪 Notebooks Jupyter pour les tests et l’exploration
+
+    🛢️ Base de données PostgreSQL intégrée
+
+    📥 Interface PGAdmin pour la gestion des données
+
+🐳 **Services Docker**
+
+Le projet embarque plusieurs services orchestrés via Docker :
+Service	Description
+app	Application Streamlit (localhost:8501) — interface principale d’analyse.
+jupyter	JupyterLab (localhost:8888) — prototypage et exploration libre.
+db	PostgreSQL 15 Alpine — base de données relationnelle pour la data.
+pgadmin	PGAdmin 4 (localhost:5050) — interface graphique pour PostgreSQL.
