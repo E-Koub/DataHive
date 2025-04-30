@@ -26,7 +26,7 @@
 ├── notebooks/            # Jupyter Notebooks pour exploration
 ├── public/app.py         # Point d'entrée Streamlit
 ├── reports/              # Rapports automatiques
-├── src/automate/         # Pipeline spécifique : analyse d’automates
+├── src/automate/         # Exemple Pipeline spécifique : analyse d’automates
 │   ├── ingestion/        # Chargement des données
 │   ├── preparation/      # Nettoyage et pré-traitement
 │   ├── analysis/         # Analyses descriptives/statistiques
