@@ -70,7 +70,8 @@ Prérequis
 
 Lancer le framework avec Docker
 
-    docker-compose up --build
+    docker compose build --no-cache
+    docker compose up -w
 
 Accéder ensuite aux interfaces :
 
