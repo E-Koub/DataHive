@@ -82,12 +82,12 @@ Accéder ensuite aux interfaces :
 
 🧪 Exécution en local (hors Docker)
 
-pip install -r requirements.txt
+pip install --no-cache-dir  -e .
 streamlit run public/app.py
 
 ✅ Bonnes pratiques intégrées
 
-    Structure modulaire MVC (Ingestion ➝ Préparation ➝ Analyse ➝ Visualisation)
+    Structure modulaire : ngestion ➝ Préparation ➝ Analyse ➝ Visualisation
 
     Logging, routing YAML, gestion centralisée des paramètres
 
