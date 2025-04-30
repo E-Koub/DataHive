@@ -70,7 +70,7 @@ Prérequis
 
 Lancer le framework avec Docker
 
-docker-compose up --build
+    docker-compose up --build
 
 Accéder ensuite aux interfaces :
 
@@ -82,8 +82,8 @@ Accéder ensuite aux interfaces :
 
 🧪 Exécution en local (hors Docker)
 
-pip install --no-cache-dir  -e .
-streamlit run public/app.py
+    pip install --no-cache-dir  -e .
+    streamlit run public/app.py
 
 ✅ Bonnes pratiques intégrées
 
