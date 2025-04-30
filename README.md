@@ -50,6 +50,7 @@
 
     📥 Interface PGAdmin pour la gestion des données
 ---
+
 ## 🐳 **Services Docker**
 
 Le projet embarque plusieurs services orchestrés via Docker :
@@ -58,3 +59,42 @@ app	Application Streamlit (localhost:8501) — interface principale d’analyse.
 jupyter	JupyterLab (localhost:8888) — prototypage et exploration libre.
 db	PostgreSQL 15 Alpine — base de données relationnelle pour la data.
 pgadmin	PGAdmin 4 (localhost:5050) — interface graphique pour PostgreSQL.
+---
+
+⚙️ Installation & Exécution
+Prérequis
+
+    Docker
+    Docker Compose
+    Python 3.11 (si utilisation en local sans Docker)
+
+Lancer le framework avec Docker
+
+docker-compose up --build
+
+Accéder ensuite aux interfaces :
+
+    📈 Streamlit : http://localhost:8501
+
+    📓 JupyterLab : http://localhost:8888
+
+    🗃️ PGAdmin : http://localhost:5050
+
+🧪 Exécution en local (hors Docker)
+
+pip install -r requirements.txt
+streamlit run public/app.py
+
+✅ Bonnes pratiques intégrées
+
+    Structure modulaire MVC (Ingestion ➝ Préparation ➝ Analyse ➝ Visualisation)
+
+    Logging, routing YAML, gestion centralisée des paramètres
+
+    Testabilité et extensibilité
+
+    Organisation inspirée du cookiecutter data science
+
+📢 Contribution
+
+Les contributions sont les bienvenues ! Que ce soit pour améliorer les modules, corriger des bugs ou proposer des idées, ouvrez une issue ou une pull request.
